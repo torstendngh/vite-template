@@ -1,4 +1,4 @@
-import { Navigate } from "react-router-dom";
+import { Navigate, Route, Routes } from "react-router-dom";
 import Dashboard from "./screens/Dashboard/Dashboard";
 
 const App = ({}) => {
