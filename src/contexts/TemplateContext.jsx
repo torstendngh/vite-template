@@ -6,7 +6,7 @@ const TemplateProvider = ({ children }) => {
 
   return (
     <TemplateContext.Provider value={{}}>
-      {!loading && children}
+      {children}
     </TemplateContext.Provider>
   );
 };
