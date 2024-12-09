@@ -3,10 +3,14 @@
 ## How to use
 
 - Make sure degit is installed<br>
-`npm install -g degit`
+```bash
+npm install -g degit
+```
 
 - Run this command in the folder you want to install template to<br>
-`degit torstendngh/vite-template . && find . -name ".gitkeep" -delete`
+```bash
+degit torstendngh/vite-template . && find . -name ".gitkeep" -delete
+```
 
 ## Features
 
@@ -15,3 +19,4 @@
 - Basic folder structure
 - CSS Reset
 - Inter set as default font
+- jsconfig
